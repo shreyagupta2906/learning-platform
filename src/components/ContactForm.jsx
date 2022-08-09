@@ -22,13 +22,14 @@ export default function UserForm({addContact}) {
     <div className="form-container">
       <form onSubmit={handleSubmit}> 
         <div>
-          <h3>Contact Form</h3>
+          <h3>Submit links you found useful</h3>
+          <p> The purpose of this form is for you to submit links and preferences that you found useful for your learning to share within Vodafone.</p>
         </div>
         <div>
           <input
             type="text"
             name="name"
-            placeholder="Name"
+            placeholder="Resource"
             value={contactInfo.name}
             onChange={handleChange}
           />
